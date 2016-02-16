@@ -1,0 +1,19 @@
+{
+  "resources": [
+    {
+      "name": "Posts",
+      "examples": [
+        {
+          "description": "Listing posts",
+          "link": "posts/listing_posts.json",
+          "groups": "all"
+        },
+        {
+          "description": "View single posts",
+          "link": "posts/view_single_posts.json",
+          "groups": "all"
+        }
+      ]
+    }
+  ]
+}

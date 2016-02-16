@@ -1,0 +1,4 @@
+example_id                             | status | run_time        |
+-------------------------------------- | ------ | --------------- |
+./spec/acceptance/posts_spec.rb[1:1:1] | passed | 0.06465 seconds |
+./spec/acceptance/posts_spec.rb[1:2:1] | passed | 0.03923 seconds |

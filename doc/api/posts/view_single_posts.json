@@ -1,0 +1,50 @@
+{
+  "resource": "Posts",
+  "http_method": "GET",
+  "route": "/api/v1/posts/:id",
+  "description": "View single posts",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "id",
+      "description": "post id to view"
+    }
+  ],
+  "response_fields": [
+    {
+      "name": "post",
+      "description": "post data"
+    }
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/posts/2",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"post\":{\"id\":2,\"title\":\"Test Post\",\"body\":\"Test Post Body\"}}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"8520de027f2cf4e5fc539f0f5c5f0007\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "495ebd7d-1c34-4275-be4e-d4f5a758663c",
+        "X-Runtime": "0.014548",
+        "Content-Length": "61"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
